@@ -18,7 +18,7 @@ public class FormCreate extends HttpServlet {
 		{
 			res.setContentType("text/html");
 			PrintWriter out = res.getWriter();
-			req.getRequestDispatcher("link.html").include(req, res);
+			req.getRequestDispatcher("static/link.html").include(req, res);
 			out.println("<!DOCTYPE html>");
 			out.println("<html>");
 			out.println("<head>");

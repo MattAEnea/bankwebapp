@@ -18,7 +18,7 @@ public class FormLogin extends HttpServlet {
 		{
 			res.setContentType("text/html");
 			PrintWriter out = res.getWriter();
-			req.getRequestDispatcher("link.html").include(req, res);
+			req.getRequestDispatcher("static/link.html").include(req, res);
 			out.println("<html>");
 			out.println("<head>");
 			out.println("<meta content=\"text/html; charset=ISO-8859-1\">");  
