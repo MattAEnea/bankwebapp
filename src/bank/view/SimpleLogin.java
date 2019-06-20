@@ -45,7 +45,7 @@ public class SimpleLogin extends HttpServlet
 			{
 				HttpSession session = req.getSession();
 				session.setAttribute("AccountSession", account);
-				res.sendRedirect("LoginPage.jsp?User=" + account.getName() + 
+				res.sendRedirect("jsp/LoginPage.jsp?User=" + account.getName() + 
 						"&msg=You have logged in to your account");
 			}
 			else

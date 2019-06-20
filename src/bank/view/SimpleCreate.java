@@ -44,7 +44,7 @@ public class SimpleCreate extends HttpServlet
 			StoreAccount acc = new StoreAccount("matt", "2395eam");
 			*/
 			//Redirect to jsp for display
-			res.sendRedirect("CreatePage.jsp?User=" + account.getName() + 
+			res.sendRedirect("jsp/CreatePage.jsp?User=" + account.getName() + 
 					"&msg=Thank you for making an account with ____ Bank");
 		}
 		catch(IOException e)
